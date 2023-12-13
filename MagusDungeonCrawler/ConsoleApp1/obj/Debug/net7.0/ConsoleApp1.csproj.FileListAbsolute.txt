@@ -1,0 +1,14 @@
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.exe
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.deps.json
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.runtimeconfig.json
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.dll
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.pdb
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfoInputs.cache
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfo.cs
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.dll
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\refint\ConsoleApp1.dll
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
+H:\Other Projects\Magus\MagusDungeonCrawler\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
