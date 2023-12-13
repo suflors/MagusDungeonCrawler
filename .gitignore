@@ -2,7 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/MagusDungeonCrawler/.vs/MagusDungeonCrawler/v17/.suo
-/.vs
-/ConsoleApp1/obj
-/ConsoleApp1/bin
+/MagusDungeonCrawler/.vs
+/MagusDungeonCrawler/ConsoleApp1/obj
+/MagusDungeonCrawler/ConsoleApp1/bin
