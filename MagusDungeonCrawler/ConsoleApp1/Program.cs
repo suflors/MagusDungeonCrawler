@@ -50,7 +50,42 @@ while (keepGoing)
 		position.East - 1 >= 0 && // West 1 space is not off the map AND
 		rooms[position.South][position.East - 1] is not null; // West 1 space is not null
 
-	Console.WriteLine("(N for North, S for South, E for East, or W for West.)");
+	Console.Write('(');
+	if (canGoNorth)
+	{
+		Console.Write("N for North");
+
+		if (canGoSouth || canGoEast || canGoWest)
+		{
+			Console.Write(", ");
+		}
+	}
+
+	if (canGoSouth)
+	{
+		Console.Write("S for South");
+
+		if (canGoEast || canGoWest)
+		{
+			Console.Write(", ");
+		}
+	}
+
+	if (canGoEast)
+	{
+		Console.Write("E for East");
+
+		if (canGoWest)
+		{
+			Console.Write(", ");
+		}
+	}
+
+	if (canGoWest)
+	{
+		Console.Write("W for West");
+	}
+	Console.WriteLine(".)");
 	var pressedKey = Console.ReadKey(false);
 	Console.WriteLine();
 
