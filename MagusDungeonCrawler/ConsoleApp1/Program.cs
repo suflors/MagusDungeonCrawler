@@ -36,6 +36,20 @@ while (keepGoing)
 {
 	Console.WriteLine();
 	Console.WriteLine("Where would you like to go?");
+
+	var canGoNorth =
+		position.South - 1 >= 0 && // North 1 space is not off the map AND
+		rooms[position.South - 1][position.East] is not null; // North 1 space is not null
+	var canGoSouth =
+		position.South + 1 < rooms.Length && // South 1 space is not off the map AND
+		rooms[position.South + 1][position.East] is not null; // South 1 space is not null
+	var canGoEast =
+		position.East + 1 < rooms[0].Length && // East 1 space is not off the map AND
+		rooms[position.South][position.East + 1] is not null; // East 1 space is not null
+	var canGoWest =
+		position.East - 1 >= 0 && // West 1 space is not off the map AND
+		rooms[position.South][position.East - 1] is not null; // West 1 space is not null
+
 	Console.WriteLine("(N for North, S for South, E for East, or W for West.)");
 	var pressedKey = Console.ReadKey(false);
 	Console.WriteLine();
