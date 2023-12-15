@@ -35,6 +35,8 @@ var rooms = new[]
 while (keepGoing)
 {
 	Console.WriteLine();
+	Console.WriteLine(rooms[position.South][position.East]);
+	Console.WriteLine();
 	Console.WriteLine("Where would you like to go?");
 
 	var canGoNorth =
@@ -89,11 +91,17 @@ while (keepGoing)
 	var pressedKey = Console.ReadKey(false);
 	Console.WriteLine();
 
-	if (pressedKey.Key == ConsoleKey.N)
+	if (pressedKey.Key == ConsoleKey.N && canGoNorth)
 	{
-		Console.WriteLine("You went North!");
-	} else if (pressedKey.Key == ConsoleKey.S)
+		position = (position.South - 1, position.East);
+	} else if (pressedKey.Key == ConsoleKey.S && canGoSouth)
 	{
-		Console.WriteLine("You went South!");
+		position = (position.South + 1, position.East);
+	} else if (pressedKey.Key == ConsoleKey.E && canGoEast)
+	{
+		position = (position.South, position.East + 1);
+	} else if (pressedKey.Key == ConsoleKey.W && canGoWest)
+	{
+		position = (position.South, position.East - 1);
 	}
 }
